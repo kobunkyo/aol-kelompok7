@@ -1,0 +1,258 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.container a{
+    text-decoration: none;
+}
+
+.left-content, .right-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-content{
+    width: 3000px;
+    margin-left: 30px;
+}
+
+.head h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.head p{
+    font-size: 25px;
+    margin: 5px 0 5px 0
+}
+
+.list-laporan{
+    background-color: lightgray;
+    width: 1100px;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-radius: 5px;
+    
+}
+
+.laporan{
+    display: flex;
+    flex-direction: row;
+    background-color: #DE4238;
+    width: 1000px;
+    margin: 20px auto 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.laporan img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px;
+    margin: auto 0 ;
+}
+
+.isi-laporan{
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.isi-laporan h2{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.isi-laporan p{
+    background-color: #F5C6C3;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.list-laporan a, .acara a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DE4238;
+    width: 300px;
+    height:60px;
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    margin: 50px 40px 30px auto;
+    border: 2px solid #DE4238;
+    border-radius: 10px;
+    transition: ease-in;
+    transition-duration: 0.15s;
+}
+
+.list-laporan a:hover, .acara a:hover{
+    color: #DE4238;
+    background-color: white;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.list-partisipasi, .list-pelaporan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #DE4238;
+    border: 2px solid #DE4238;
+    border-radius: 10px;
+    width: 280px;
+    height: 320px;
+    cursor: pointer;
+    transition: ease-in-out;
+    transition-duration: 0.15s;
+}
+
+.list-partisipasi{
+    margin-right: 30px;
+}
+
+.list-pelaporan{
+    margin-left: 30px;
+}
+
+.button img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.button p{
+    background-color: white;
+    color: #DE4238;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.list-partisipasi:hover, .list-pelaporan:hover{
+    background-color: white;
+}
+
+.right-content{
+    margin-right: 30px;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 630px;
+    height: 60px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.form input, .form input:focus-visible{
+    border:none;
+    outline: none;
+}
+
+.form input{
+    width: 570px;
+    font-family: 'Poppins';
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+.form button{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: none;
+    border-radius: none;
+    height: 40px;
+}
+
+.form img{
+    display: flex;
+    height: 30px;
+    align-items: center;
+}
+
+.search{
+    width: 570px;
+    height: 40px;
+    margin: auto 0;
+}
+
+.submit{
+    height: 40px;
+    margin: auto 0;
+}
+
+.acara{
+    background-color: lightgray;
+    width: 590px;
+    height: 650px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.detail-acara{
+    background-color: #DE4238;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.detail-acara h2{
+    color: white;
+    padding: 10px;
+}
+
+.detail-acara p{
+    padding: 10px;
+    font-size: 20px;
+    background-color: #F5C6C3;
+    width: 520px;
+    margin: 0 auto;
+}
+
+.detail-acara img{
+    width: 590px;
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.acara a{
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.scroll {
+    overflow: auto;
+    height: 200px;
+}
+
+.acara-container{
+    height: 550px;
+    overflow: auto;
+}

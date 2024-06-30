@@ -1,0 +1,114 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 20px auto 10px auto;
+}
+
+.status{
+    background-color: #F0B4B0;
+    font-size: 25px;
+    width: 1000px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.status p{
+    width: 900px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.merah, .kuning, .hijau{
+    display: flex;
+    margin: 20px;
+}
+
+.warna-merah, .warna-kuning, .warna-hijau{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-right: 20px;
+}
+
+.warna-merah, .status-merah{
+    background-color: #FF0505;
+}
+
+.warna-kuning, .status-kuning{
+    background-color: #EFFF31;
+}
+
+.warna-hijau, .status-hijau{
+    background-color: #499B57;
+}
+
+.list-laporan{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.detail{
+    display: flex;
+    background-color: #DE4238;
+    width: 1600px;
+    font-size: 25px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.head{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.left img{
+    width: 800px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.left{
+    margin-right: 20px;
+}
+
+.right{
+    
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.ket-status{
+    background-color: lightgray;
+    font-size: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+    width: 260px;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.warna{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    margin-left: 30px;
+}

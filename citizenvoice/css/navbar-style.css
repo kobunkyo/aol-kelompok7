@@ -1,0 +1,144 @@
+.navbar {
+    display: flex;
+    flex: 1;
+    background-color: #DE4238;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+  }
+  
+  .navbar-left {
+    display: flex;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    align-items: center;
+    margin: 0 50px 0 50px;
+    width: max-content;
+  }
+  
+  .navbar-logo {
+    padding-left: 30px;
+  }
+  
+  .navbar-mid {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .mid-button{
+    display: flex;
+    height: 100%;
+    width: 200px;
+  }
+
+  .navbar-mid a {
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    padding-top: 8px;
+    text-decoration: none;
+  }
+
+  .navbar-mid a::after{
+    content: '';
+    display: block;
+    padding-bottom: 8px;
+    border-bottom: 2px solid white;
+    transform: scaleX(0);
+    transition: ease-in-out;
+    transition-duration: 0.15s;
+  }
+
+  .navbar-mid a:hover::after{
+    transform: scaleX(1.2);
+  }
+  
+  .navbar-right {
+    display: flex;
+    width: max-content;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .navbar-right a{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    margin: auto;
+  }
+  
+  .navbar-button{
+    display: flex;
+    margin: 0 50px 0 50px;
+    justify-content: space-between;
+  }
+
+  .navbar-profile {
+    display: flex;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0 50px 0 50px;
+  }
+
+  .navbar-profile img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50px;
+  }
+
+  .navbar-profile p{
+    display: flex;
+    height: 100%;
+    margin: auto;
+    margin-right: 30px;
+  }
+
+  .masuk-btn{
+    display: flex;
+  }
+
+  .masuk-btn a{
+    padding-top: 8px;
+  }
+
+  .masuk-btn a::after{
+    content: '';
+    display: block;
+    padding-bottom: 8px;
+    border-bottom: 2px solid white;
+    transform: scaleX(0);
+    transition: ease-in-out;
+    transition-duration: 0.15s;
+  }
+
+  .masuk-btn a:hover::after{
+    transform: scaleX(0.8);
+  }
+
+  .button-daftar a{
+    display: flex;
+    height: 50px;
+    width: 170px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    background-color: #DE4238;
+    transition: ease-in-out;
+    transition-duration: 0.2s;
+  }
+
+  .button-daftar a:hover{
+    background-color: white;
+    color: #DE4238;
+  }

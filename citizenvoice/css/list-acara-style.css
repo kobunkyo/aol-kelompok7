@@ -1,0 +1,138 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #DE4238;
+    border-radius: 5px;
+    padding: 20px;
+    width: 1700px;
+    margin: 20px auto;
+
+}
+
+.head h2{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    margin: auto 0;
+}
+
+.head a{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #DE4238;
+    border: 2px solid white;
+    text-decoration: none;
+    width: 400px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: ease-out;
+    transition-duration: 0.15s;
+}
+
+.head a:hover {
+    color: #DE4238;
+    background-color: white;
+    border-color: #DE4238;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 730px;
+    height: 60px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form input, .form input:focus-visible{
+    border:none;
+    outline: none;
+}
+
+.form input{
+    width: 670px;
+    font-family: 'Poppins';
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+.form button{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: none;
+    border-radius: none;
+    height: 40px;
+}
+
+.form img{
+    display: flex;
+    height: 30px;
+    align-items: center;
+}
+
+.search{
+    width: 670px;
+    height: 40px;
+    margin: auto 0;
+}
+
+.submit{
+    height: 40px;
+    margin: auto 0;
+}
+
+.list-acara{
+    display: flex;
+    flex-direction: column;
+    background-color: #DE4238;
+    width: 1300px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 30px -2px;
+    cursor: pointer;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    color: white;
+    padding: 30px;
+}
+.list-acara img{
+    height: 400px;
+    object-fit: cover;
+}
+
+.judul{
+    background-color: white;
+    font-size: 30px;
+    padding: 30px;
+    padding-bottom: 0;
+}
+
+.isi{
+    background-color: white;
+    font-size: 25px;
+    padding: 30px;
+    padding-bottom: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
